@@ -15,7 +15,7 @@ public class AtmApp {
 			do {
 
 		System.out.println("ISLEMLER: " + "\n==============\n");
-		System.out.println("1.Para Cekme \n2.Para Yatýrma \n3.Havale/Eft \n4.Sifre Degistirme \n5.Bakiye Sogulama \n6.Cýkýs");
+		System.out.println("1.Para Cekme \n2.Para Yatirma \n3.Havale/Eft \n4.Sifre Degistirme \n5.Bakiye Sogulama \n6.Cikis");
 		Scanner input = new Scanner(System.in);
 		secim = input.nextInt();
 		
@@ -33,7 +33,7 @@ public class AtmApp {
 		case 6: atm.logout();
 			break;
 			default:
-				System.out.println("Gecerli secim yapmadýnýz !");
+				System.out.println("Gecerli secim yapmadiniz !");
 				
 		}
 			 if(secim == 6) {
@@ -43,13 +43,13 @@ public class AtmApp {
 			 
 			
 			 
-		System.out.println("Baska islem yapmak istiyor musunuz: \n1:Evet/2:Hayýr ");
+		System.out.println("Baska islem yapmak istiyor musunuz: \n1:Evet/2:Hayir ");
 		input = new Scanner(System.in);
 	    sec = input.nextInt();
 	   
 		}while(sec == 1);
 		
-		System.out.println("Ýslem Sonlandýrýldý...");
+		System.out.println("islem Sonlandirildi...");
 		
 		
 	}
